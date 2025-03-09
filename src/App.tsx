@@ -23,7 +23,7 @@ export class App extends React.Component {
     isSelected: true,
   };
 
-  handleClik = (good: string) => {
+  handleClick = (good: string) => {
     this.setState({
       selectedGood: good,
       isSelected: true,
@@ -66,7 +66,7 @@ export class App extends React.Component {
               type="button"
               className="button"
               onClick={() => {
-                this.handleClik(good);
+                this.handleClick(good);
               }}
             >
               +
